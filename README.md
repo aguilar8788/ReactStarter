@@ -1,2 +1,2 @@
 # ReactStarter
-a scaffalding set up for react to streamline react development
+a scaffalding set up to streamline react development
