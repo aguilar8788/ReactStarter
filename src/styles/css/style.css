@@ -1,0 +1,170 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 0 0 2px 2px; }
+  .navigation .logo h1 {
+    width: 400px;
+    margin-bottom: -5px; }
+  .navigation .logo .logoLink {
+    color: #73BC38;
+    text-decoration: none; }
+  .navigation li {
+    color: red; }
+  .navigation ul {
+    padding: 10px 5px 0 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative; }
+    .navigation ul li {
+      padding: 0 5px 0 5px; }
+      .navigation ul li a {
+        text-decoration: none;
+        color: #79c43b; }
+      .navigation ul li a:hover {
+        text-decoration: none;
+        color: #548929; }
+    .navigation ul .socialDropDown {
+      cursor: pointer;
+      color: #599dd4; }
+    .navigation ul .socialDropDown:hover {
+      color: #88c5f6; }
+    .navigation ul .socialMedia {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      z-index: 100;
+      margin-top: 20px;
+      left: 86.5%; }
+
+.app {
+  width: 100vw; }
+  .app .head {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%; }
+
+.home .section1 {
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .home .section1 .back {
+    position: absolute;
+    width: 100vw;
+    height: 100vh; }
+  .home .section1 .contentWrapper {
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .home .section1 .contentWrapper .logo {
+      width: 100vw;
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      position: absolute; }
+      .home .section1 .contentWrapper .logo h1 {
+        font-size: 90px; }
+    .home .section1 .contentWrapper .candleStick1 {
+      position: absolute;
+      z-index: -2;
+      margin-left: 13px;
+      margin-top: -15px;
+      width: 3px;
+      height: 170px;
+      background-color: black; }
+    .home .section1 .contentWrapper .wick:nth-child(odd) {
+      background-color: green; }
+    .home .section1 .contentWrapper .wick {
+      margin-left: 40px;
+      border: 1px solid black;
+      width: 30px;
+      height: 130px;
+      background-color: red; }
+.home .section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* The image used */
+  background-image: url("../../images/hand.jpeg");
+  /* Set a specific height */
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.home .contentWrapper2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #84BA4D;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .home .contentWrapper2 h1 {
+    color: white; }
+  .home .contentWrapper2 p {
+    width: 60vw;
+    font-size: 20px;
+    color: white;
+    text-align: center; }
+  .home .contentWrapper2 .subjects {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw; }
+    .home .contentWrapper2 .subjects .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 25vw;
+      background-color: white;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      border-radius: 5px;
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+      .home .contentWrapper2 .subjects .content h1 {
+        font-size: 30px;
+        color: black; }
+      .home .contentWrapper2 .subjects .content p {
+        color: black;
+        width: 75%;
+        font-size: 18px; }
+    .home .contentWrapper2 .subjects .content:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+.home .followUs {
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh; }
+  .home .followUs h1 {
+    font-size: 100px;
+    color: #85ba4f;
+    /* Will override color (regardless of order) */ }
+  .home .followUs h2 {
+    font-size: 40px;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */

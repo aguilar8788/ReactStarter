@@ -1,0 +1,77 @@
+.navigation {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 0 0 2px 2px; }
+  .navigation .logo h1 {
+    width: 400px;
+    margin-bottom: -5px; }
+  .navigation .logo .logoLink {
+    color: #73BC38;
+    text-decoration: none; }
+  .navigation li {
+    color: red; }
+  .navigation ul {
+    padding: 10px 5px 0 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: relative; }
+    .navigation ul li {
+      padding: 0 5px 0 5px; }
+      .navigation ul li a {
+        text-decoration: none;
+        color: #79c43b; }
+      .navigation ul li a:hover {
+        text-decoration: none;
+        color: #548929; }
+    .navigation ul .socialDropDown {
+      cursor: pointer;
+      color: #599dd4; }
+    .navigation ul .socialDropDown:hover {
+      color: #88c5f6; }
+    .navigation ul .socialMedia {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      z-index: 100;
+      margin-top: 20px;
+      left: 86.5%; }
+
+.app .head {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 100%; }
+
+.home .section1 {
+  background-image: url("../../logoBack.png");
+  height: 1000px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .home .section1 .contentWrapper {
+    width: 100vw;
+    height: 100vh; }
+.home .section2 {
+  /* The image used */
+  /* Set a specific height */
+  height: 1000px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.home .one {
+  display: inline-block;
+  width: 100vw;
+  margin-top: 100px;
+  background-size: cover; }
+
+/*# sourceMappingURL=style.css.map */

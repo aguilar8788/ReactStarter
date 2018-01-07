@@ -1,0 +1,9 @@
+.app {
+  width: 100vw; }
+  .app .head {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%; }
+
+/*# sourceMappingURL=app.css.map */
